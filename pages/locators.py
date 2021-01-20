@@ -7,11 +7,11 @@ class MainPageLocators():
 
 class LoginPageLocators():
 	# селексторы для поля "Войти"
-	ADDRESS_EMAIL = (By.CSS_SELECTOR, "id_login_username")  
-	USER_PASSWORD = (By.CSS_SELECTOR, "id_login_password")
+	ADDRESS_EMAIL = (By.CSS_SELECTOR, "#id_login-username")  
+	USER_PASSWORD = (By.CSS_SELECTOR, "#id_login-password")
 	
 	# селексторы для поля "Зарегистрироваться"
-	REGISTRATION_ADDRESS_EMAIL = (By.CSS_SELECTOR, "id_registration_email")
-	REGISTRATION_PASSWORD_USER = (By.CSS_SELECTOR, "id_registration_password")
-	REPEAT_PASSWORD_ADDRESS_EMAIL = (By.CSS_SELECTOR, "id_registration_password2")
+	REGISTRATION_ADDRESS_EMAIL = (By.CSS_SELECTOR, "#id_registration-email")
+	REGISTRATION_PASSWORD_USER = (By.CSS_SELECTOR, "#id_registration-password1")
+	REPEAT_PASSWORD_ADDRESS_EMAIL = (By.CSS_SELECTOR, "#id_registration-password2")
 
